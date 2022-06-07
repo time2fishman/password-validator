@@ -18,8 +18,7 @@ component.
 1. Install dependencies with `npm install`.
 1. Open the project in VS Code with `code .`.
 1. Back in the Terminal type `npm run start` to start your development server.
-1. Complete the [requirements](requirements) listed below.
-1. Create a pull request when done.
+1. Complete the [requirements](#requirements) listed below.
 
 ## Requirements
 

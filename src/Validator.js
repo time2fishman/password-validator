@@ -11,8 +11,8 @@ function Validator() {
 	const [formState, setFormState] = useState(initialState)
 
 	const handleChange = (event) => {
-		setFormState({...formState, [event.target.id]: event.target.value})
-		console.log(formState)
+		setFormState({ ...formState, [event.target.id]: event.target.value })
+		// console.log(formState)
 	}
 
 	const handleSubmit = (event) => {
@@ -20,12 +20,11 @@ function Validator() {
 		event.preventDefault()
 		// check if submission is valid
 		if (formState.password === formState.passwordConfirm) {
-			setFormState({...formState, valid: true})
+			setFormState({ ...formState, valid: true })
 		} else {
-			setFormState({...formState, valid: false})
+			setFormState({ ...formState, valid: false })
 		}
-		console.log(formState)
-		// setFormState(initialState)
+		// console.log(formState)
 	}
 
 	return (
